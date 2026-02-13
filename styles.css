@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+#planta {
+    font-size: 80px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: lightgreen;
+}
